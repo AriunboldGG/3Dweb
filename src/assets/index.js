@@ -32,6 +32,12 @@ import khanbank from "./company/khanbank.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import monpay from "./monpay.png";
+import ramen from "./ramen.png";
+import uvs from "./uvs.png";
+import baganuur from "./baganuur.png";
+import click from "./click.png";
+import flutter from "./tech/flutter.svg";
 
 export {
   logo,
@@ -65,5 +71,10 @@ export {
   carrent,
   jobit,
   tripguide,
-  
+  monpay,
+  ramen,
+  uvs,
+  baganuur,
+  click,
+  flutter,
 };

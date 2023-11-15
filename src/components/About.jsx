@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Hi guys!. In the first my english is not so good. In my free time i like to read books!. I love to develop myself every day. Чтобы писать вот это по-английски пользую гугл-переводчик, смотря на это my english is still муу!
+        Hi guys!. In my free time i like to read books!. I love to develop myself every day. За бүгдийг нь англиар бичих гээд яахав дээ тэ. Чөлөөт цагаараа stand-up comedy гадна дотны үзэх дуртай. Ажил дээрээ заримдаа хөнгөхөөн joke нтр ярьж инээлгэнэ нэг тийм л хобби байдаг даа.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

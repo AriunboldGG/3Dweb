@@ -26,6 +26,11 @@ import {
     threejs,
     ictgroup,
     khanbank,
+    monpay,
+    ramen,
+    uvs,
+    baganuur,
+    flutter,
   } from "../assets";
   
   export const navLinks = [
@@ -76,10 +81,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -96,8 +97,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Three JS",
@@ -119,15 +120,14 @@ import {
   
   const experiences = [
     {
-      title: "Tomsk Polytechnic University",
-      company_name: "Student",
+      title: "Student",
+      company_name: "Tomsk Polytechnic University",
       icon: tpu,
       iconBg: "#383E56",
       date: "Oct 2016 - July 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I completed my bachelor's degree in 2021 at Tomsk Polytechnic University in software engineering.",
+        
       ],
     },
     {
@@ -137,9 +137,9 @@ import {
       iconBg: "#383E56",
       date: "July 2021 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Arriving home, I got a job in the ICT group. This was my first official professional job.",
+        "After I got a job, I started working as a WordPress developer in PHP.",
+        "I have made more than 15 websites using WordPress.",
       ],
     },
     {
@@ -149,9 +149,7 @@ import {
       iconBg: "#383E56",
       date: "December 2021 - June 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I started learning JS from the first year. At work I made 5+ websites using JS",
       ],
     },
     {
@@ -161,21 +159,21 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Started working as a mobile developer in December 2023",
+        "Started working as a mobile developer in December 2022",
         "Worked in two large projects. One of them was Digital - Province",
       ],
     },
-    {
-      title: "Business Analyst",
-      company_name: "ICT Group",
-      icon: ictgroup,
-      iconBg: "#E6DEDD",
-      date: "May 2023 - May 2023",
-      points: [
-        "Started working as a mobile developer in December 2023",
-        "Worked in two large projects. One of them was Digital - Province",
-      ],
-    },
+    // {
+    //   title: "Business Analyst",
+    //   company_name: "ICT Group",
+    //   icon: ictgroup,
+    //   iconBg: "#E6DEDD",
+    //   date: "May 2023 - May 2023",
+    //   points: [
+    //     "Started working as a mobile developer in December 2023",
+    //     "Worked in two large projects. One of them was Digital - Province",
+    //   ],
+    // },
     {
       title: "Solution Architect",
       company_name: "Khan Bank",
@@ -183,10 +181,8 @@ import {
       iconBg: "#383E56",
       date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "From July 2023, I started working as a solution architect at Khanbank, which is the largest bank in Mongolia",
+        "I work on different technologies and determine the easiest, correct way for coding, applications, systems to work successfully without risks and problems",
       ],
     },
     // {
@@ -233,33 +229,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Monpay Web",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web platform that allows users to pay from the web version and manage an online wallet account from various payments, providing a convenient and efficient solution for payment needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: monpay,
+      source_code_link: "https://monpay.mn/",
     },
     {
-      name: "Job IT",
+      name: "Багануур дүүрэг веб сайт",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Багануур дүүргийн талаарх мэдээллэх веб-сайт. Монгол-Англи-Монгол бичиг хосолсон веб-сайт.",
       tags: [
         {
-          name: "react",
+          name: "php",
           color: "blue-text-gradient",
         },
         {
@@ -267,24 +263,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "uikit",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: baganuur,
+      source_code_link: "https://bnd.ub.gov.mn/",
     },
     {
-      name: "Trip Guide",
+      name: "Digital Uvs Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Дижитал Увс аппликейшн нь олон төрлийн үйлчилгээг агуулсан цогц платформ бөгөөд дараах үйлчилгээнүүдийг агуулна.",
       tags: [
         {
-          name: "nextjs",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
@@ -292,8 +288,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: uvs,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.ict.digital_province_uvs&hl=en&gl=US",
     },
   ];
   
