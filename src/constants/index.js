@@ -157,7 +157,7 @@ import {
       company_name: "Tesla",
       icon: ictgroup,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "December 2022 - June 2023",
       points: [
         "Started working as a mobile developer in December 2022",
         "Worked in two large projects. One of them was Digital - Province",
