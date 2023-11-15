@@ -154,7 +154,7 @@ import {
     },
     {
       title: "Flutter Developer",
-      company_name: "Tesla",
+      company_name: "ICT Group",
       icon: ictgroup,
       iconBg: "#E6DEDD",
       date: "December 2022 - June 2023",
